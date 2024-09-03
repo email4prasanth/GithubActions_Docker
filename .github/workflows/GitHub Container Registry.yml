@@ -5,6 +5,7 @@ on:
     branches: main
     paths:
       - 'GitHub_Container/**'
+      - '!**'
 
 jobs:
   login:
