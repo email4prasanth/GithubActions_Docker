@@ -1,11 +1,9 @@
 name: dockerhub
-#added path
 on:
   push:
     branches:
       - "main"
-    paths:
-      - "dockerhub.yml"
+
 
 jobs:
   build:
