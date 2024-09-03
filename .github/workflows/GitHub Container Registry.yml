@@ -1,4 +1,4 @@
-name: ci
+name: GitHub Container Registry
 # added path
 on:
   push:
