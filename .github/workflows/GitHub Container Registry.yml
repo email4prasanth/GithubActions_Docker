@@ -4,7 +4,7 @@ on:
   push:
     branches: main
     paths:
-      - 'GitHub Container Registry.yml'
+      - 'GitHub_Container/**'
 
 jobs:
   login:
