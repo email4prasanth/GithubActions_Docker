@@ -3,8 +3,8 @@ name: ci
 on:
   push:
     branches: main
-  paths:
-    - 'GitHub Container Registry.yml'
+    paths:
+      - 'GitHub Container Registry.yml'
 
 jobs:
   login:
