@@ -12,7 +12,7 @@ jobs:
     - name: Login to DockerHUB
       uses: docker/login-action@v3
       with:
-        username: ${{vars.DOCKERHUB_USERNAME}}
+        username: ${{vars.DOCKER_USERNAME}}
         password: ${{secrets.DOCKERHUB_TOKEN}}
     - name: Setpu Docker Buildx
       uses: docker/setup-buildx-action@v3
