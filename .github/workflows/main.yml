@@ -1,5 +1,5 @@
 name: ci
-# git token changed
+# git token change
 on:
   push:
     branches: main
