@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-# check GITHUB container
+# check GITHUB container 2
 FROM busybox:latest
 COPY --chmod=755 <<EOF /app/run.sh
 #!/bin/sh
