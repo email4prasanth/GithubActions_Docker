@@ -4,7 +4,7 @@ on:
     branches:
       - "main"
     paths:
-       - 'Dockerfile.GCR'
+       - 'DockerHUB/**'
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./Dockerfile.GCR # Specify the custom Dockerfile
+          file: ./DockerHUB/Dockerfile # Specify the custom Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest

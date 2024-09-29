@@ -23,7 +23,7 @@ jobs:
       # Step 3: Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/email4prasanth/githubactions_docker/test:latest .
+          docker build -f ./GitHub_Container/Dockerfile -t ghcr.io/email4prasanth/githubactions_docker/test:latest .
 
       # Step 4: Push the Docker image to the registry
       - name: Push Docker image to GitHub Container Registry
