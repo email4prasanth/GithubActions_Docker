@@ -5,7 +5,7 @@
 # COPY test-app.jar /app/test-app.jar
 # CMD ["java","-jar","test-app.jar"]
 # Use an official Python runtime as a parent image
-#added requirements.txt
+#added requirements.txt changed
 FROM python:3.9-slim
 
 # Set the working directory in the container
