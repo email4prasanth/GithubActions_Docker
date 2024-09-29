@@ -1,5 +1,5 @@
 # Trying to build java image
-# check DockerHUB 1
+# check DockerHUB 2
 FROM openjdk:17-jdk-alpine
 WORKDIR /app
 COPY test-app.jar /app/test-app.jar
