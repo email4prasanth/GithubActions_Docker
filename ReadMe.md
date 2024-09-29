@@ -1,1 +1,2 @@
+- check the github repo connection
 - link https://www.youtube.com/watch?v=A1Z3vAJpmsw
